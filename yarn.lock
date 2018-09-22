@@ -4085,15 +4085,12 @@ jest-snapshot@^23.6.0:
     pretty-format "^23.6.0"
     semver "^5.5.0"
 
-jest-transform-css@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-0.0.1.tgz#c950f162e515b5d3f2892f02f314ef02800d6735"
+jest-transform-css@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-1.0.0.tgz#e89d683b5f73ceee8d19bd3ebef85aada46df46a"
   dependencies:
     common-tags "1.8.0"
     cross-spawn "6.0.5"
-    postcss "7.0.2"
-    postcss-load-config "2.0.0"
-    postcss-modules "1.3.2"
     style-inject "0.3.0"
 
 jest-util@^23.4.0:
@@ -4166,9 +4163,9 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
-jsdom-screenshot@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-0.0.1.tgz#037ae2ba03d00ef35e9c87cc40852cbdafe2c4a7"
+jsdom-screenshot@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-1.0.0.tgz#c14012b871fd622d240e699685bf9d0bee9cfccb"
   dependencies:
     lodash.merge "^4.6.1"
     pretty-format "23.6.0"
