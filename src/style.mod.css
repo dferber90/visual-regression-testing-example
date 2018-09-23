@@ -5,5 +5,8 @@
 }
 
 .birdie {
+  display: inline-block;
+  width: 265px;
+  height: 190px;
   background: url(/party-parrot.png);
 }
