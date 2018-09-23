@@ -12,7 +12,7 @@ describe("when custom viewport is used", () => {
     fireEvent.click(getByTestId("increment-button"));
     expect(
       await generateImage({
-        launchOptions: {
+        launch: {
           defaultViewport: { width: 100, height: 80 }
         }
       })

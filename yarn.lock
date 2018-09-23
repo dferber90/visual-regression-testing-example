@@ -4163,9 +4163,9 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
-jsdom-screenshot@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-1.0.0.tgz#c14012b871fd622d240e699685bf9d0bee9cfccb"
+jsdom-screenshot@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-2.0.0.tgz#511c578d121e5e65844279fbe9dc914780bc8f4d"
   dependencies:
     lodash.merge "^4.6.1"
     pretty-format "23.6.0"
