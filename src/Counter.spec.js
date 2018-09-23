@@ -38,7 +38,9 @@ describe("when remote global styles are used", () => {
   it("should have no visual regressions", async () => {
     const { getByTestId } = render(<Counter />);
     fireEvent.click(getByTestId("increment-button"));
-    expect(await generateImage()).toMatchImageSnapshot();
+    expect(
+      await generateImage({ waitUntilNetworkIdle: true })
+    ).toMatchImageSnapshot();
   });
 });
 
@@ -61,16 +63,17 @@ describe("when local global styles are used", () => {
     fireEvent.click(getByTestId("increment-button"));
     expect(
       await generateImage({
-        publicPaths: ["public"]
+        waitUntilNetworkIdle: true,
+        serve: ["public"]
       })
     ).toMatchImageSnapshot();
   });
 });
 
-describe("when requestInterception is used", () => {
+describe("when request interception is used", () => {
   let animateLink;
   beforeEach(() => {
-    // This is only so that we can show how requestInterception works.
+    // This is only so that we can show how intercept works.
     // If would not want to make this request, you would simply not add this tag.
     // Let's assume that this tag gets added by a script over which we have
     // no control for the sake of simplicity of this example.
@@ -95,7 +98,7 @@ describe("when requestInterception is used", () => {
     fireEvent.click(getByTestId("increment-button"));
     expect(
       await generateImage({
-        requestInterception: request => {
+        intercept: request => {
           if (
             request.url() ===
             "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"

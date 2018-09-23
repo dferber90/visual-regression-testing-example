@@ -4113,17 +4113,19 @@ jest-snapshot@^23.6.0:
     pretty-format "^23.6.0"
     semver "^5.5.0"
 
-jest-transform-css@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-1.0.0.tgz#e89d683b5f73ceee8d19bd3ebef85aada46df46a"
+jest-transform-css@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-1.1.0.tgz#a26db99027029db74aeba8cd410682113a91718e"
   dependencies:
     common-tags "1.8.0"
     cross-spawn "6.0.5"
+    postcss-load-config "2.0.0"
+    postcss-modules "1.3.2"
     style-inject "0.3.0"
 
-jest-transform-file@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jest-transform-file/-/jest-transform-file-1.0.0.tgz#51975d2349bfb9867baa9276ee3ba651deb9c058"
+jest-transform-file@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/jest-transform-file/-/jest-transform-file-1.1.0.tgz#84f5d738fe8196a4fe4daf6729cfcfeacecd43bb"
 
 jest-util@^23.4.0:
   version "23.4.0"
@@ -4195,9 +4197,9 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
-jsdom-screenshot@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-2.1.0.tgz#0a11f8b633e393b4cc8c3bb62c5361392a732820"
+jsdom-screenshot@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/jsdom-screenshot/-/jsdom-screenshot-3.0.2.tgz#4843d89cc2366d45c4af7f97c5c243a200a60bc1"
   dependencies:
     connect "3.6.6"
     finalhandler "1.1.1"

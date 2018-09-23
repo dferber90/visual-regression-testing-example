@@ -9,6 +9,6 @@ import { render } from "react-testing-library";
 it("should have no visual regressions", async () => {
   const { getByTestId } = render(<Image />);
   expect(
-    await generateImage({ publicPaths: ["public"] })
+    await generateImage({ waitUntilNetworkIdle: true, serve: ["public"] })
   ).toMatchImageSnapshot();
 });
