@@ -3,3 +3,7 @@
 .button {
   background: var(--some-bg);
 }
+
+.birdie {
+  background: url(/party-parrot.png);
+}

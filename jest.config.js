@@ -159,7 +159,8 @@ module.exports = {
   transform: {
     "^.+\\.js$": "babel-jest",
     // serves both, global css (.css) and modular css (.mod.css)
-    "^.+\\.css$": "jest-transform-css"
+    "^.+\\.css$": "jest-transform-css",
+    "^.+\\.png$": "jest-transform-file"
   }
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
