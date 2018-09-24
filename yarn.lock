@@ -1788,6 +1788,14 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
+cosmiconfig@5.0.6, cosmiconfig@^5.0.0:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.6.tgz#dca6cf680a0bd03589aff684700858c81abeeb39"
+  dependencies:
+    is-directory "^0.3.1"
+    js-yaml "^3.9.0"
+    parse-json "^4.0.0"
+
 cosmiconfig@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
@@ -1796,14 +1804,6 @@ cosmiconfig@^4.0.0:
     js-yaml "^3.9.0"
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
-
-cosmiconfig@^5.0.0:
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.6.tgz#dca6cf680a0bd03589aff684700858c81abeeb39"
-  dependencies:
-    is-directory "^0.3.1"
-    js-yaml "^3.9.0"
-    parse-json "^4.0.0"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -4113,19 +4113,20 @@ jest-snapshot@^23.6.0:
     pretty-format "^23.6.0"
     semver "^5.5.0"
 
-jest-transform-css@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-1.1.0.tgz#a26db99027029db74aeba8cd410682113a91718e"
+jest-transform-css@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-2.0.0.tgz#f384ad1922e3726201664c199fd368e657e295d3"
   dependencies:
     common-tags "1.8.0"
+    cosmiconfig "5.0.6"
     cross-spawn "6.0.5"
     postcss-load-config "2.0.0"
     postcss-modules "1.3.2"
     style-inject "0.3.0"
 
-jest-transform-file@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/jest-transform-file/-/jest-transform-file-1.1.0.tgz#84f5d738fe8196a4fe4daf6729cfcfeacecd43bb"
+jest-transform-file@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/jest-transform-file/-/jest-transform-file-1.1.1.tgz#cad6c59986c74c695bd2ce3acfe4ab2fe87ebceb"
 
 jest-util@^23.4.0:
   version "23.4.0"
