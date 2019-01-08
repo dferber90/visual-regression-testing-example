@@ -7,7 +7,7 @@ export default class Image extends Component {
   render() {
     return (
       <div>
-        <img src="https://www.dferber.de/favicon.ico" />
+        <img src="https://www.google.com/favicon.ico" />
         <img src="/party-parrot.png" />
         <img src={bluePartyParrot} />
         <div className={styles.birdie} />
